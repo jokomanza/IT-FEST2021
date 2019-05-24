@@ -15,7 +15,7 @@ STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sist
 ## A. Database
 Nama Database : STEMSEND_BooksDB
 ### ERD
-![ERD](./Database/ERD.png)
+<img src="./Database/ERD.png" width="75%" heigh="75%"/>
 
 ### Detail
 | Table | Key | Column          | Data Type   | Nullable | Default Value     | Notes                                              |
