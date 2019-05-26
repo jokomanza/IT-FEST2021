@@ -9,21 +9,23 @@
 STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sistem penyimpanan buku di SMK Negeri 2 Klaten. Sebagai developer yang baru diangkat, Anda ditugaskan untuk membuat Aplikasi Desktop. Diberikan di sepanjang proyek adalah ERD, sample data, dan detail dari setiap fitur yang diminta.
 
 ## A. Database
+Nama Database : STEMSEND_BooksDB
 ### ERD
 ![ERD](./Database/Database%20STEMSEND%20Books.png)
 
 ### Detail
-| Table | Key | Column    | Data Type   | Nullable | Default Value | Notes          |
-|-------|-----|-----------|-------------|----------|---------------|----------------|
-| Users | PK  | Id        | INT         | No       | -             | Auto increment |
-|       |     | Username  | VARCHAR(50) | No       | -             |                |
-|       |     | Password  | VARCHAR(50) | No       | -             |                |
-|       |     | Email     | VARCHAR(50) | No       | -             |                |
-|       |     | Nama      | VARCHAR(50) | No       | -             |                |
-| Buku  | PK  | Id        | INT         | No       | -             |                |
-|       |     | Judul     | VARCHAR(50) | No       | -             | Unique value   |
-|       |     | Pengarang | VARCHAR(50) | No       | -             |                |
-|       |     | Penerbit  | VARCHAR(50) | No       | -             |
+| Table | Key | Column      | Data Type   | Nullable | Default Value | Notes          |
+|-------|-----|-----------  |-------------|----------|---------------|----------------|
+| Users | PK  | Id          | INT         | No       | -             | Auto increment |
+|       |     | Username    | VARCHAR(50) | No       | -             |                |
+|       |     | Password    | VARCHAR(50) | No       | -             |                |
+|       |     | Email       | VARCHAR(50) | No       | -             |                |
+|       |     | Nama        | VARCHAR(50) | No       | -             |                |
+| Buku  | PK  | Id          | INT         | No       | -             |                |
+|       |     | Judul       | VARCHAR(50) | No       | -             | Unique value   |
+|       |     | Pengarang   | VARCHAR(50) | No       | -             |                |
+|       |     | Penerbit    | VARCHAR(50) | No       | -             |
+|       | FK  | User_Id.    | INT         | No       | -             | Foreign Key from Users.Id
 
 ## B. Login
 - [x] Form login digunakan oleh staf untuk mengakses menu di dalam sistem. 
@@ -81,7 +83,7 @@ STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sist
 2. Gunakan proper naming conventions untuk semua material yang dikumpulkan.
 3. Tampilkan form atau report pada tengah layer.
 4. Wireframe yang disediakan hanyalah sebagai acuan. Modifikasi diperbolehkan selama tidak mempengaruhi kinerja fitur yang ada.
-5. Perhatikan waktu pengerjakan dang gunakan waktu yang diberikan sebaik mungkin.
+5. Perhatikan waktu pengerjakan dan gunakan waktu yang diberikan sebaik mungkin.
 
 ## Details 
 
@@ -95,5 +97,4 @@ STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sist
 |--|--|
 |Database Creation| 40%|
 |Desktop Application| 60%|
-> Written with [StackEdit](https://stackedit.io/).
 
