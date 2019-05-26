@@ -27,7 +27,6 @@ Penjelasan materi detail dari masing-masing kelompok adalah sebagai berikut :
 - Mampu mengidentifikasi PK dan FK
 - Membuat hubungan antara entitas yang terhubung dengan benar
 - Menyimpan semua informasi yang dibutuhkan untuk diolah menjadi informasi yang lebih bermanfaat
-- Menggunakan komponen yang sesuai
 
 #### B Model fisik dari basis data
 
