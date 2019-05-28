@@ -14,18 +14,20 @@ Nama Database : STEMSEND_BooksDB
 ![ERD](./Database/Database%20STEMSEND%20Books.png)
 
 ### Detail
-| Table | Key | Column      | Data Type   | Nullable | Default Value | Notes          |
-|-------|-----|-----------  |-------------|----------|---------------|----------------|
-| Users | PK  | Id          | INT         | No       | -             | Auto increment |
-|       |     | Username    | VARCHAR(50) | No       | -             |                |
-|       |     | Password    | VARCHAR(50) | No       | -             |                |
-|       |     | Email       | VARCHAR(50) | No       | -             |                |
-|       |     | Nama        | VARCHAR(50) | No       | -             |                |
-| Buku  | PK  | Id          | INT         | No       | -             |                |
-|       |     | Judul       | VARCHAR(50) | No       | -             | Unique value   |
-|       |     | Pengarang   | VARCHAR(50) | No       | -             |                |
-|       |     | Penerbit    | VARCHAR(50) | No       | -             |
-|       | FK  | User_Id.    | INT         | No       | -             | Foreign Key from Users.Id
+| Table | Key | Column          | Data Type   | Nullable | Default Value | Notes                                              |
+|-------|-----|-----------------|-------------|----------|---------------|----------------------------------------------------|
+| Users | PK  | Id              | INT         | No       | -             | Auto Increment                                     |
+|       |     | Username        | VARCHAR(50) | No       | -             |                                                    |
+|       |     | Password        | VARCHAR(50) | No       | -             |                                                    |
+|       |     | Email           | VARCHAR(50) | No       | -             | Unique Value                                       |
+|       |     | Nama            | VARCHAR(50) | No       | -             |                                                    |
+| Books | PK  | Id              | INT         | No       | -             |                                                    |
+|       | FK  | User_Id         | INT         | No       | -             |                                                    |
+|       |     | Judul           | VARCHAR(50) | No       | -             | Unique Value                                       |
+|       |     | Pengarang       | VARCHAR(50) | No       | -             |                                                    |
+|       |     | Penerbit        | VARCHAR(50) | No       | -             |                                                    |
+|       |     | Jumlah          | INT         | No       | 1             |                                                    |
+|       |     | Tanggal_Dirubah | DATE TIME   | No       | -             | Waktu data dibuat atau waktu terakhir data diubah. |
 
 ## B. Login
 - [x] Form login digunakan oleh staf untuk mengakses menu di dalam sistem. 
