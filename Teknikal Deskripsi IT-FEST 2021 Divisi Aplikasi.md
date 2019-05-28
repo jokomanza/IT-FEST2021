@@ -118,7 +118,10 @@ Berikut beberapa peratuan perlombaan ini:
 
 ## General Requirements:
 
-1. Setiap window harus dilengkapi validasi dan error message.
+1. Menggunakan .Net Framework.
+3. Menggunakan Bahasa C#.
+3. Membuat aplikasi dengan WinForm.
+2. Setiap window harus dilengkapi validasi dan error message.
 2. Gunakan proper naming conventions untuk semua material yang dikumpulkan.
 3. Tampilkan form atau report pada tengah layar.
 4. Wireframe yang disediakan hanyalah sebagai acuan. Modifikasi diperbolehkan selama tidak mempengaruhi kinerja fitur yang ada.
