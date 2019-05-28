@@ -34,7 +34,7 @@ Nama Database : STEMSEND_BooksDB
 - [x] Memvalidasi bahwa informasi login ada di database. 
 - [x] Tampilkan pesan kesalahan yang tepat jika perlu.
 - [x] Jika login sukses, langsung diarahkan ke Home.
-<img src="./SEMSEND%20Books%20Wireframe/Login%20Form.png" alt="Login" width="45%" height="45%"/>
+<img src="./STEMSEND%20Books%20Wireframe/Login%20Form.png" alt="Login" width="45%" height="45%"/>
 
 ## C. Home
 - [x] Semua data Buku harus tampil.
@@ -43,7 +43,7 @@ Nama Database : STEMSEND_BooksDB
 - [x] Jika tombol Hapus Buku ditekan, akan memunculkan Form Hapus Buku.
 - [x] Jika tombol Logout ditekan, maka user akan keluar dari aplikasi dan kembali ke Form Login.
 - [x] Tampilkan pesan kesalahan yang tepat jika perlu.
-<img src="./SEMSEND%20Books%20Wireframe/Home%20Form.png" alt="Home" width="50%" height="50%"/>
+<img src="./STEMSEND%20Books%20Wireframe/Home%20Form.png" alt="Home" width="50%" height="50%"/>
 
 ## D. Tambah Buku
 - [x] Form Tambah Buku digunakan untuk menambahkan data buku baru.
@@ -52,7 +52,7 @@ Nama Database : STEMSEND_BooksDB
 - [x] Jika tombol Batal ditekan, tutup Form Tambah Buku dan kembali ke Form Home.
 - [x] Setelah data berhasil disimpan, tutup Form Tambah Buku dan kembali ke Form Home serta refresh data grid yang ada di Form Home.
 - [x] Tampilkan pesan kesalahan yang tepat jika perlu.
-<img src="./SEMSEND%20Books%20Wireframe/Tambah%20Buku%20Form.png" alt="Tambah Buku" width="45%" height="45%"/>
+<img src="./STEMSEND%20Books%20Wireframe/Tambah%20Buku%20Form.png" alt="Tambah Buku" width="45%" height="45%"/>
 
 ## E. Edit Buku
 - [x] Form Edit Buku digunakan untuk mengedit data buku yang sudah ada.
@@ -64,7 +64,7 @@ Nama Database : STEMSEND_BooksDB
 - [x] Jika tombol Batal ditekan, tutup Form Edit Buku dan kembali ke Form Home.
 - [x] Setelah data berhasil disimpan, tutup Form Edit Buku dan kembali ke Form Home serta refresh data grid yang ada di Form Home.
 - [x] Tampilkan pesan kesalahan yang tepat jika perlu.
-<img src="./SEMSEND%20Books%20Wireframe/Edit%20Buku%20Form.png" alt="Edit Buku" width="45%" height="45%"/>
+<img src="./STEMSEND%20Books%20Wireframe/Edit%20Buku%20Form.png" alt="Edit Buku" width="45%" height="45%"/>
 
 ## F. Hapus Buku
 - [x] Form Hapus Buku digunakan untuk menghapus data buku yang sudah ada.
@@ -76,7 +76,7 @@ Nama Database : STEMSEND_BooksDB
 - [x] Jika tombol Batal ditekan, tutup Form Hapus Buku dan kembali ke Form Home.
 - [x] Setelah data berhasil dihapus, tutup Form Hapus Buku dan kembali ke Form Home serta refresh data grid yang ada di Form Home.
 - [x] Tampilkan pesan kesalahan yang tepat jika perlu.
-<img src="./SEMSEND%20Books%20Wireframe/Hapus%20Buku%20Form.png" alt="Hapus Buku" width="45%" height="45%"/>
+<img src="./STEMSEND%20Books%20Wireframe/Hapus%20Buku%20Form.png" alt="Hapus Buku" width="45%" height="45%"/>
 
 **Waktu Pengerjaan : 6 jam**
 ## General Requirements
