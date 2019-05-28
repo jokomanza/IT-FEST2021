@@ -4,6 +4,10 @@
 |--|
 |<ol><li>Gunakan format berikut untuk nama proyek Anda: IT-FEST2021_[KELAS]_[NAMA], contoh: IT-FEST2021_XIISIJAB_MARTIN.</li> <li>Anda harus menyerahkan seluruh proyek dan memastikan bahwa proyek dapat dijalankan di komputer lain (PC) tanpa konfigurasi tambahan. Harap perhatikan string koneksi database Anda! </li> <li> Jika Anda gagal mengirimkan proyek yang tepat yang menyebabkan proyek tidak dapat dikompilasi, tidak ada skor akan diberikan. </li> <li> Anda tidak diperbolehkan untuk memodifikasi atau mengubah struktur database yang diberikan. Namun, Anda dapat memasukkan catatan tambahan. </li> </ol>|
 
+|Prosedur Pengumpulan|
+|--|
+|<ol><li>Ada dua hal yang harus di kumpulkan</li> <li>Yang pertama adalah database export masing masing dalam bentuk sql, untuk mengenerate database sql ikuti langkah langkah [berikut](https://ourcodeworld.com/articles/read/846/how-to-export-a-ms-sql-server-database-to-a-sql-script-database-to-sql-file-with-microsoft-sql-server-management-studio-17). **Pastikan pada bagian _Set Scripting Actions_, opsi Types of data to script sudah diubah menjadi Schema and data**. <li>Yang kedua adalah folder project Visual Studionya.</li><li>Kemudian archive keduanya dengan nama IT-FEST2021_[KELAS]_[NAMA].zip</li><li>Kumpulkan file tersebut melalui [form ini](https://forms.gle/TYw4PEbybQwykAHu9).</li></ol>|
+
 <h1 align="center">STEMSEND Books</h1>
 
 STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sistem penyimpanan buku di SMK Negeri 2 Klaten. Sebagai developer yang baru diangkat, Anda ditugaskan untuk membuat Aplikasi Desktop. Diberikan di sepanjang proyek adalah ERD, sample data, dan detail dari setiap fitur yang diminta.
