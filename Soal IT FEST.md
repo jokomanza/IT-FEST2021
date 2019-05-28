@@ -2,7 +2,7 @@
 
 |Catatan khusus:|
 |--|
-|<ol><li>Gunakan format berikut untuk nama proyek Anda: IT-FEST2021_[KELAS]_[NAMA], contoh: IT-FEST2021_XIISIJAB_MARTIN.</li> <li>Anda harus menyerahkan seluruh proyek dan memastikan bahwa proyek dapat dijalankan di komputer lain (PC) tanpa konfigurasi tambahan. Harap perhatikan string koneksi database Anda! </li> <li> Jika Anda gagal mengirimkan proyek yang tepat yang menyebabkan proyek tidak dapat dikompilasi, tidak ada skor akan diberikan. </li> <li> Anda tidak diperbolehkan untuk memodifikasi atau mengubah struktur database yang diberikan. Namun, Anda dapat memasukkan catatan tambahan. </li> <li> Proses penandaan akan dilakukan menggunakan database asli yang diberikan dengan catatan tambahan. </li> </ol>|
+|<ol><li>Gunakan format berikut untuk nama proyek Anda: IT-FEST2021_[KELAS]_[NAMA], contoh: IT-FEST2021_XIISIJAB_MARTIN.</li> <li>Anda harus menyerahkan seluruh proyek dan memastikan bahwa proyek dapat dijalankan di komputer lain (PC) tanpa konfigurasi tambahan. Harap perhatikan string koneksi database Anda! </li> <li> Jika Anda gagal mengirimkan proyek yang tepat yang menyebabkan proyek tidak dapat dikompilasi, tidak ada skor akan diberikan. </li> <li> Anda tidak diperbolehkan untuk memodifikasi atau mengubah struktur database yang diberikan. Namun, Anda dapat memasukkan catatan tambahan. </li> </ol>|
 
 <h1 align="center">STEMSEND Books</h1>
 
@@ -37,11 +37,13 @@ Nama Database : STEMSEND_BooksDB
 <img src="./STEMSEND%20Books%20Wireframe/Login%20Form.png" alt="Login" width="45%" height="45%"/>
 
 ## C. Home
-- [x] Semua data Buku harus tampil.
+- [x] Semua data Buku harus tampil dengan kolom Nama Buku, Pengarang, Penerbit dan Jumlah.
+- [x] Ketika user mengetikan kata di TextBox Cari, maka filter data yang ditampilkan di datagrid berdasarkan nama buku atau pengarang atau penerbit atau jumlah yang seperti kata yang di cari.
 - [x] Jika tombol Tambah Buku ditekan, akan memunculkan Form Tambah Buku.
 - [x] Jika tombol Edit Buku ditekan, akan memunculkan Form Edit Buku.
 - [x] Jika tombol Hapus Buku ditekan, akan memunculkan Form Hapus Buku.
 - [x] Jika tombol Logout ditekan, maka user akan keluar dari aplikasi dan kembali ke Form Login.
+- [x] Tampilkan pesan konfirmasi yang tepat jika perlu.
 - [x] Tampilkan pesan kesalahan yang tepat jika perlu.
 <img src="./STEMSEND%20Books%20Wireframe/Home%20Form.png" alt="Home" width="50%" height="50%"/>
 
@@ -78,25 +80,5 @@ Nama Database : STEMSEND_BooksDB
 - [x] Tampilkan pesan kesalahan yang tepat jika perlu.
 <img src="./STEMSEND%20Books%20Wireframe/Hapus%20Buku%20Form.png" alt="Hapus Buku" width="45%" height="45%"/>
 
-**Waktu Pengerjaan : 6 jam**
-## General Requirements
 
-1. Setiap window harus dilengkapi validasi dan error message.
-2. Gunakan proper naming conventions untuk semua material yang dikumpulkan.
-3. Tampilkan form atau report pada tengah layer.
-4. Wireframe yang disediakan hanyalah sebagai acuan. Modifikasi diperbolehkan selama tidak mempengaruhi kinerja fitur yang ada.
-5. Perhatikan waktu pengerjakan dan gunakan waktu yang diberikan sebaik mungkin.
-
-## Details 
-
-|Module Name  |  Estimated Duration (Hours)| Requirements |
-|--|--|--|
-|Database Creation|<p align="center">2</p>|<ul> <li>Insert sample data yang telah diberikan ke database</li> <li>Insert sample data that has been given to the database</li> |
-| Desktop Application| <p align="center"> 4 </p> | <ul><li> Create windows forms and its components based on given __requirements__ </li> <li>Login and logout mechanism</li> <li> Validate user input </li> <li> Show, insert, update, or delete records in the database </li> <li> Searching and filtering </li></ul>
-
-## Marking Percentage
-|Module|Percentage|
-|--|--|
-|Database Creation| 40%|
-|Desktop Application| 60%|
-
+<h2 align="center">SELAMAT MENGERJAKAN</h2>
