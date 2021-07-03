@@ -12,7 +12,7 @@ STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sist
 
 ### A. Database
 #### ERD
-![ERD](./Database%20STEMSEND%20Books.png)
+![ERD](./Database/Database%20STEMSEND%20Books.png)
 
 #### Detail
 
