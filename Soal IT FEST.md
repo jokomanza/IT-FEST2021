@@ -15,19 +15,19 @@ Berikut ERD Sistem STEMSEND Books
 ![ERD](https://lh6.googleusercontent.com/qXjP5BXvT0Iur8w6Ay_ywyhkKHggRbeLUGuzMinPObalDPwYNWZ7c-zyOIYNLrNI1482xKSFWqFfbhcYj7QgjC52-FY-tVWoMwb37rth)
 
 ### B. Login
-<img src="./SEMSEND%20Books%20Wireframe/Login%20Form.png" alt="Login" width="50%" height="50%"/>
+<img src="./SEMSEND%20Books%20Wireframe/Login%20Form.png" alt="Login" width="45%" height="45%"/>
 
 ### C. Home
 <img src="./SEMSEND%20Books%20Wireframe/Home%20Form.png" alt="Home" width="50%" height="50%"/>
 
 ### D. Tambah Buku
-<img src="./SEMSEND%20Books%20Wireframe/Tambah%20Buku%20Form.png" alt="Tambah Buku" width="50%" height="50%"/>
+<img src="./SEMSEND%20Books%20Wireframe/Tambah%20Buku%20Form.png" alt="Tambah Buku" width="45%" height="45%"/>
 
 ### E. Edit Buku
-<img src="./SEMSEND%20Books%20Wireframe/Edit%20Buku%20Form.png" alt="Edit Buku" width="50%" height="50%"/>
+<img src="./SEMSEND%20Books%20Wireframe/Edit%20Buku%20Form.png" alt="Edit Buku" width="45%" height="45%"/>
 
 ### F. Hapus Buku
-<img src="./SEMSEND%20Books%20Wireframe/Hapus%20Buku%20Form.png" alt="Hapus Buku" width="50%" height="50%"/>
+<img src="./SEMSEND%20Books%20Wireframe/Hapus%20Buku%20Form.png" alt="Hapus Buku" width="45%" height="45%"/>
 
 
 
