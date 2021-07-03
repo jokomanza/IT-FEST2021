@@ -10,9 +10,9 @@
 
 STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sistem penyimpanan buku di SMK Negeri 2 Klaten. Sebagai developer yang baru diangkat, Anda ditugaskan untuk membuat Aplikasi Desktop. Diberikan di sepanjang proyek adalah ERD, sample data, dan detail dari setiap fitur yang diminta.
 
-### A. ERD
-Berikut ERD Sistem STEMSEND Books
-![ERD](https://lh6.googleusercontent.com/qXjP5BXvT0Iur8w6Ay_ywyhkKHggRbeLUGuzMinPObalDPwYNWZ7c-zyOIYNLrNI1482xKSFWqFfbhcYj7QgjC52-FY-tVWoMwb37rth)
+### A. Database
+Berikut ERD Sistem STEMSEND Books <br>
+![ERD](https://github.com/jokomanza/IT-FEST2021/blob/main/ERD%20STEMSEND%20Books.png)
 
 ### B. Login
 <img src="./SEMSEND%20Books%20Wireframe/Login%20Form.png" alt="Login" width="45%" height="45%"/>
