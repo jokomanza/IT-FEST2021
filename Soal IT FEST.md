@@ -15,6 +15,17 @@ STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sist
 ![ERD](./Database/Database%20STEMSEND%20Books.png)
 
 #### Detail
+| Table | Key | Column    | Data Type   | Nullable | Default Value | Notes          |
+|-------|-----|-----------|-------------|----------|---------------|----------------|
+| Users | PK  | Id        | INT         | No       | -             | Auto increment |
+|       |     | Username  | VARCHAR(50) | No       | -             |                |
+|       |     | Password  | VARCHAR(50) | No       | -             |                |
+|       |     | Email     | VARCHAR(50) | No       | -             |                |
+|       |     | Nama      | VARCHAR(50) | No       | -             |                |
+| Buku  | PK  | Id        | INT         | No       | -             |                |
+|       |     | Judul     | VARCHAR(50) | No       | -             | Unique value   |
+|       |     | Pengarang | VARCHAR(50) | No       | -             |                |
+|       |     | Penerbit  | VARCHAR(50) | No       | -             |
 
 ### B. Login
 <img src="./SEMSEND%20Books%20Wireframe/Login%20Form.png" alt="Login" width="45%" height="45%"/>
