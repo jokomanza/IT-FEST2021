@@ -1,20 +1,18 @@
 # SOAL IT FEST 2021 - Divisi Aplikasi
 
-## NOTES
-
 |Catatan khusus:|
 |--|
-|<ol><li>Gunakan format berikut untuk nama proyek Anda: PC_[KAB/KOTA]_[NAMA], contoh: PC_KOTA_TEGAL atau PC_KAB_TEGAL.</li> <li>Anda harus menyerahkan seluruh proyek dan memastikan bahwa proyek dapat dijalankan di komputer lain (PC) tanpa konfigurasi tambahan. Harap perhatikan string koneksi database Anda! </li> <li> Jika Anda gagal mengirimkan proyek yang tepat yang menyebabkan proyek tidak dapat dikompilasi, tidak ada skor akan diberikan. </li> <li> Anda tidak diperbolehkan untuk memodifikasi atau mengubah struktur database yang diberikan. Namun, Anda dapat memasukkan catatan tambahan. </li> <li> Proses penandaan akan dilakukan menggunakan database asli yang diberikan dengan catatan tambahan. </li> </ol>|
+|<ol><li>Gunakan format berikut untuk nama proyek Anda: IT-FEST2021_[KELAS]_[NAMA], contoh: IT-FEST2021_XIISIJAB_MARTIN.</li> <li>Anda harus menyerahkan seluruh proyek dan memastikan bahwa proyek dapat dijalankan di komputer lain (PC) tanpa konfigurasi tambahan. Harap perhatikan string koneksi database Anda! </li> <li> Jika Anda gagal mengirimkan proyek yang tepat yang menyebabkan proyek tidak dapat dikompilasi, tidak ada skor akan diberikan. </li> <li> Anda tidak diperbolehkan untuk memodifikasi atau mengubah struktur database yang diberikan. Namun, Anda dapat memasukkan catatan tambahan. </li> <li> Proses penandaan akan dilakukan menggunakan database asli yang diberikan dengan catatan tambahan. </li> </ol>|
 
 <h1 align="center">STEMSEND Books</h1>
 
 STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sistem penyimpanan buku di SMK Negeri 2 Klaten. Sebagai developer yang baru diangkat, Anda ditugaskan untuk membuat Aplikasi Desktop. Diberikan di sepanjang proyek adalah ERD, sample data, dan detail dari setiap fitur yang diminta.
 
-### A. Database
-#### ERD
+## A. Database
+### ERD
 ![ERD](./Database/Database%20STEMSEND%20Books.png)
 
-#### Detail
+### Detail
 | Table | Key | Column    | Data Type   | Nullable | Default Value | Notes          |
 |-------|-----|-----------|-------------|----------|---------------|----------------|
 | Users | PK  | Id        | INT         | No       | -             | Auto increment |
@@ -27,25 +25,55 @@ STEMSEND Books adalah aplikasi baru yang bertujuan untuk membantu mengelola sist
 |       |     | Pengarang | VARCHAR(50) | No       | -             |                |
 |       |     | Penerbit  | VARCHAR(50) | No       | -             |
 
-### B. Login
+## B. Login
+- [x] Form login digunakan oleh staf untuk mengakses menu di dalam sistem. 
+- [x] Memvalidasi bahwa informasi login ada di database. 
+- [x] Tampilkan pesan kesalahan yang tepat jika perlu.
+- [x] Jika login sukses, langsung diarahkan ke Home.
 <img src="./SEMSEND%20Books%20Wireframe/Login%20Form.png" alt="Login" width="45%" height="45%"/>
 
-### C. Home
+## C. Home
+- [x] Semua data Buku harus tampil.
+- [x] Jika tombol Tambah Buku ditekan, akan memunculkan Form Tambah Buku.
+- [x] Jika tombol Edit Buku ditekan, akan memunculkan Form Edit Buku.
+- [x] Jika tombol Hapus Buku ditekan, akan memunculkan Form Hapus Buku.
+- [x] Jika tombol Logout ditekan, maka user akan keluar dari aplikasi dan kembali ke Form Login.
+- [x] Tampilkan pesan kesalahan yang tepat jika perlu.
 <img src="./SEMSEND%20Books%20Wireframe/Home%20Form.png" alt="Home" width="50%" height="50%"/>
 
-### D. Tambah Buku
+## D. Tambah Buku
+- [x] Form Tambah Buku digunakan untuk menambahkan data buku baru.
+- [x] Pada saat tombol Simpan ditekan, simpan data yang telah dimasukan user.
+- [x] Pada saat akan menyimpan data, gunakan validasi data yang tepat.
+- [x] Jika tombol Batal ditekan, tutup Form Tambah Buku dan kembali ke Form Home.
+- [x] Setelah data berhasil disimpan, tutup Form Tambah Buku dan kembali ke Form Home serta refresh data grid yang ada di Form Home.
+- [x] Tampilkan pesan kesalahan yang tepat jika perlu.
 <img src="./SEMSEND%20Books%20Wireframe/Tambah%20Buku%20Form.png" alt="Tambah Buku" width="45%" height="45%"/>
 
-### E. Edit Buku
+## E. Edit Buku
+- [x] Form Edit Buku digunakan untuk mengedit data buku yang sudah ada.
+- [x] Pada saat pertama kali form muncul, semua Id buku ada di Combo Box Id buku.
+- [x] Pada saat pertama kali form muncul, semua field selain Id buku secara otomatis terisi dengan data buku sesuai id buku yang terpilih pertama kali.
+- [x] Pada saat id buku yang dipilih berubah, field lain juga ikut terisi secara otomatis dengan data buku sesuai id buku yang dipilih.
+- [x] Pada saat tombol Simpan ditekan, update data yang telah dimasukan user.
+- [x] Pada saat akan menyimpan data, gunakan validasi data yang tepat.
+- [x] Jika tombol Batal ditekan, tutup Form Edit Buku dan kembali ke Form Home.
+- [x] Setelah data berhasil disimpan, tutup Form Edit Buku dan kembali ke Form Home serta refresh data grid yang ada di Form Home.
+- [x] Tampilkan pesan kesalahan yang tepat jika perlu.
 <img src="./SEMSEND%20Books%20Wireframe/Edit%20Buku%20Form.png" alt="Edit Buku" width="45%" height="45%"/>
 
-### F. Hapus Buku
+## F. Hapus Buku
+- [x] Form Hapus Buku digunakan untuk menghapus data buku yang sudah ada.
+- [x] Pada saat pertama kali form muncul, semua Id buku ada di Combo Box Id buku.
+- [x] Pada saat pertama kali form muncul, semua field selain Id buku secara otomatis terisi dengan data buku sesuai id buku yang terpilih pertama kali.
+- [x] Pada saat id buku yang dipilih berubah, field lain juga ikut terisi secara otomatis dengan data buku sesuai id buku yang dipilih.
+- [x] Pada saat tombol Hapus ditekan, hapus data buku sesuai buku yang dipilih.
+- [x] Pada saat akan menghapus data, tampilkan pesan konfirmasi yang sesuai sebelum data benar benar terhapus.
+- [x] Jika tombol Batal ditekan, tutup Form Hapus Buku dan kembali ke Form Home.
+- [x] Setelah data berhasil dihapus, tutup Form Hapus Buku dan kembali ke Form Home serta refresh data grid yang ada di Form Home.
+- [x] Tampilkan pesan kesalahan yang tepat jika perlu.
 <img src="./SEMSEND%20Books%20Wireframe/Hapus%20Buku%20Form.png" alt="Hapus Buku" width="45%" height="45%"/>
 
-
-
-
-# KISI KISI IT FEST 2021 - Divisi Aplikasi V2
 **Waktu Pengerjaan : 6 jam**
 ## General Requirements
 
