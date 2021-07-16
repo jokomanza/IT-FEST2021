@@ -80,7 +80,7 @@ Penilaian dilakukan secara objektif. Penilaian hanya memberikan angka 1 bila ses
 Berikut rekomendasi alat yang digunakan selama perlombaan.
 |Alat | Spesifikasi |
 |-----|-------------|
-| PC/Laptop | <ul><li>Processof Intel Core i5 8500, 3.0 GHz or higher</li><li>RAM DDR4 8GB or higher</li><li>SSD 255 GB or higher or SSD 500 GB</li><li>Screen Resolution 1080x1920 or higher</li><li>Keyboard and Mouse Optic</li><li>Operating System Windows 10</li></ul> |
+| PC/Laptop | <ul><li>Processof Intel Core i5 8500, 3.0 GHz or higher</li><li>RAM DDR4 8GB or higher</li><li>SSD 255 GB or higher or SSD 500 GB</li><li>Screen Resolution 1920x1080 or higher</li><li>Keyboard and Mouse Optic</li><li>Operating System Windows 10</li></ul> |
 
 ### DAFTAR BAHAN
 
