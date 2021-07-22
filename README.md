@@ -1,4 +1,4 @@
-# IT-FEST2021
+# IT-FEST2021 DIVISI APLIKASI (Canceled)
 ### Selamat datang di repository resmi IT-FEST 2021 Divisi Aplikasi
 
 ## SOAL
